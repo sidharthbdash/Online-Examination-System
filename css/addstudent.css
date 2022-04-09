@@ -1,0 +1,27 @@
+.addstudent{
+	height:240px;
+	width: 450px;
+	/*border: 1px solid black;*/
+	
+}
+.addstudent input{
+	border:0;
+	margin-left: 40px
+ 	background: none;
+  /*display: block;*/
+ 	flex-direction: left;
+  	text-align: center;
+  	border: 2px solid #033BAB;
+  	width: 200px;
+  	height: 50px;
+  	outline: none;
+  	color: black;
+  	border-radius: 34px;
+  	transition: 0.25s;
+  	font-size: 17px;
+  	margin-top: 15px;
+}
+.addstudent input:hover,input:focus{
+	width: 220px;
+	border-color: #FEEB04;
+}
